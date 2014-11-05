@@ -9,6 +9,7 @@ public class ShinyShamePlugin extends JavaPlugin {
     public void onEnable(){
         Logger logger = getServer().getLogger();
         logger.info("Starting ShinyShame Plugin.");
+        getCommand("blaze").setExecutor(new BlazeCommand(this));
     }
     @Override
     public void onDisable(){

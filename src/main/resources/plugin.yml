@@ -2,3 +2,6 @@ name: ShinyShame
 authors: [PyRoDemonSpawn, TheFatDemon]
 version: 0.1
 main: com.github.pyrodemonspawn.shinyshame.ShinyShamePlugin
+commands:
+  blaze:
+    description: Make's you have swag.
